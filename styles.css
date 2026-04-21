@@ -1,41 +1,68 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+}
+
 body {
-    margin: 0;
-    padding: 0;
-    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
-    background-color: #fbfbfd;
+  font-family: -apple-system, BlinkMacSystemFont, "SF Pro Text", "SF Pro Display", sans-serif;
+  background-color: #f2f2f7;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
+
 .container {
-    max-width: 400px;
-    margin: 60px auto;
-    padding: 0 20px;
+  width: 100%;
+  max-width: 400px;
+  padding: 0 20px;
 }
-.avatar {
-    width: 100%;
-    border-radius: 16px;
-    box-shadow: 0 6px 20px rgba(0,0,0,0.06);
+
+.card {
+  background: #fff;
+  border-radius: 24px;
+  padding: 28px;
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.07);
+  text-align: center;
 }
-.name {
-    font-size: 34px;
-    font-weight: 600;
-    color: #1d1d1f;
-    margin: 28px 0 8px;
+
+.photo {
+  width: 100%;
+  border-radius: 18px;
+  margin-bottom: 30px;
+  display: block;
 }
-.desc {
-    font-size: 18px;
-    color: #86868b;
-    margin: 0;
+
+h1 {
+  font-size: 36px;
+  font-weight: 600;
+  margin-bottom: 8px;
+  color: #1d1d1f;
 }
-.character {
-    margin-top: 48px;
+
+.sub {
+  font-size: 16px;
+  color: #8e8e93;
+  margin-bottom: 26px;
 }
-.character h2 {
-    font-size: 24px;
-    font-weight: 500;
-    color: #1d1d1f;
-    margin-bottom: 10px;
+
+.text {
+  font-size: 17px;
+  line-height: 1.6;
+  color: #3a3a3c;
 }
-.character p {
-    font-size: 18px;
-    color: #444;
-    margin: 0;
+
+.text p {
+  margin-bottom: 14px;
+}
+
+/* 署名样式 */
+.sign {
+  margin-top: 30px;
+  font-size: 16px;
+  color: #8e8e93;
 }
